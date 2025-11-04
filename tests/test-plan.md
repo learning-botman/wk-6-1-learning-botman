@@ -69,11 +69,11 @@ Focus on risk-based coverage: cart → checkout → payment flow, accessibility,
 ## 9. Deliverables & Schedule
 | Artifact             | Due      | Owner         |
 |---------------------|----------|--------------|
-| This test plan      | Nov 5    | QA Lead      |
+| This test plan      | Nov 5    | Team Lead      |
 | Test cases          | Nov 11   | Whole team   |
 | Defect log          | Nov 11 (draft) → Nov 18 (final) | Everyone |
-| Final report        | Nov 18   | QA Lead      |
-| Video presentation  | Nov 18   | PM + Designer|
+| Final report        | Nov 18   | Team Lead      |
+| Video presentation  | Nov 18   |  |
 
 # 📝 Test Plan
 
