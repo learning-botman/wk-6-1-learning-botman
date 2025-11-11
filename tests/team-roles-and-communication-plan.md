@@ -9,6 +9,7 @@
 - Leads by testing alongside team
 
 ### Risk Analyst
+**Ayomide Kayode** (Iamkayodeayomidesamuel@gmial.com)
 - Identifies & prioritizes risks
 - Designs test cases
 - Collaborates on test strategy
@@ -55,7 +56,7 @@
 
 ## Contact List
 - **Test Manager / Project Manager:** Evans Nyamu, snyamuevans@gmail.com
-- **Risk Analyst:** [Name, Email/Handle]
+- **Risk Analyst:** Ayomide Kayode , Iamkayodeayomidesamuel@gmail.com
 - **Test Executor:** [Name, Email/Handle]
 
 *Update this section with your other team members and contact details.*
