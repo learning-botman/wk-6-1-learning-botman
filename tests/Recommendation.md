@@ -51,7 +51,7 @@ The issue does not block functionality but affects user experience and sales qua
 
 **PRIORITY:**<br>
 *Low*<br>
-*Using ISBN Number to search gives more option to user to find there desire books*<br>
+*Using ISBN Number to search gives users more option to find there desire books*<br>
 
 **ACCEPTANCE CRITERIA:**<br>
 *Search box activated to allow ISBN Number*
