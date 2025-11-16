@@ -1,4 +1,4 @@
-**BOOKSTORE RECOMMENDATION**
+                **BOOKSTORE RECOMMENDATION**
 
 **ID:** *R-01*
 
@@ -21,24 +21,38 @@ The issue does not block functionality but affects user experience and sales qua
 
 <br>
 
-**ID:** R-02
+**ID:** R-02<br>
 
-**RECOMMENDATION:**
+**RECOMMENDATION:**<br>
+*No Clear payment system indicated on the checkout process*<br>
 
-**EVIDENCE:**
+**EVIDENCE:**<br>
+*Add a book to cart*<br>
+*Purchase the book added to cart*<br>
 
-**PRIORITY:**
+**PRIORITY:**<br>
+*Medium*<br>
+*Every customer need to know which payment system is available to use in purchasing there desire book*<br>
 
-**ACCEPTANCE CRITERIA:**
+**ACCEPTANCE CRITERIA:**<br>
+*Clear message on which payment system is available to use*<br>
+*Paystack, Visa, Mastercard, Paypal, e.t.c*<br>
 
 <br>
 
-**ID:**  R-03
+**ID:**  R-03<br>
 
-**RECOMMENDATION:**
+**RECOMMENDATION:**<br>
+*using ISBN Number to search for book*<br>
 
-**EVIDENCE:**
+**EVIDENCE:**<br>
+*Load-up the website*<br>
+*Search a book by it ISBN Number*<br>
 
-**PRIORITY:**
+**PRIORITY:**<br>
+*Low*<br>
+*Using ISBN Number to search gives more option to user to find there desire books*<br>
 
-**ACCEPTANCE CRITERIA:**
+**ACCEPTANCE CRITERIA:**<br>
+*Search box activated to allow ISBN Number*
+*The search should the pop-up correct information related to the ISBN Number*
