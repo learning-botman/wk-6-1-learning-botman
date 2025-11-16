@@ -54,5 +54,5 @@ The issue does not block functionality but affects user experience and sales qua
 *Using ISBN Number to search gives users more option to find there desire books*<br>
 
 **ACCEPTANCE CRITERIA:**<br>
-*Search box activated to allow ISBN Number*
+*Search box activated to allow ISBN Number*<br>
 *The search should the pop-up correct information related to the ISBN Number*
