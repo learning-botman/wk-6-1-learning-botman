@@ -9,11 +9,13 @@
 - Leads by testing alongside team
 
 ### Risk Analyst
+**Ayomide Kayode** (Iamkayodeayomidesamuel@gmial.com)
 - Identifies & prioritizes risks
 - Designs test cases
 - Collaborates on test strategy
 
 ### Test Executor
+**Oreoluwa Ruth** (oreoluwaajayiruth@gmail.com)
 - Executes test cases & logs results
 - Reports detailed bug reports
 - Validates fixes
@@ -55,7 +57,7 @@
 
 ## Contact List
 - **Test Manager / Project Manager:** Evans Nyamu, snyamuevans@gmail.com
-- **Risk Analyst:** [Name, Email/Handle]
-- **Test Executor:** [Name, Email/Handle]
+- **Risk Analyst:** Ayomide Kayode Samuel , Iamkayodeayomidesamuel@gmail.com
+- **Test Executor:** Oreoluwa Ruth Ajayi, Oreoluwaajayiryth@gmail.com
 
 *Update this section with your other team members and contact details.*
