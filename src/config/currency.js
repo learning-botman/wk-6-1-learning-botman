@@ -1,6 +1,6 @@
 const ENV_CURRENCY = process.env.REACT_APP_CURRENCY;
 
-export const SUPPORTED_CURRENCIES = ['NGN', 'GHS', 'USD', 'ZAR'];
+export const SUPPORTED_CURRENCIES = ['NGN', 'GHS', 'USD', 'ZAR', 'KES'];
 
 export const APP_CURRENCY = SUPPORTED_CURRENCIES.includes(ENV_CURRENCY || '')
   ? ENV_CURRENCY
@@ -11,6 +11,7 @@ const CURRENCY_LOCALE = {
   GHS: 'en-GH',
   USD: 'en-US',
   ZAR: 'en-ZA',
+  KES: 'en-KE',
 };
 
 export const formatCurrency = (amount) => {
