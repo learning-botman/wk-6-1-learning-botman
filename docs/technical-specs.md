@@ -59,3 +59,4 @@
 ## 🧩 Testability
 - `data-testid` on title/price/buy button
 - Planned: deterministic `seed.json`, MSW layer for faults/latency
+
