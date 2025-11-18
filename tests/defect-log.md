@@ -1,9 +1,6 @@
 # Defect Log
 
-This defect log was generated from `tests/final-report.md` (TR-2025-BOOKSTORE-003).
-Each defect below includes a short summary, severity, priority and recommended action for tracking.
 
----
 
 ## DEFECT-001: No User Authentication System
 - Severity: Critical
