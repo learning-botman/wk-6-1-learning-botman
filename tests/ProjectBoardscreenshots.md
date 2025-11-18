@@ -16,4 +16,4 @@ The images below are the project board screenshots stored in the `projectboardim
 
 ---
 
-Tip: If images don't show, ensure the files are present at `tests/projectboardimages/` and that your markdown renderer supports relative paths.
+
