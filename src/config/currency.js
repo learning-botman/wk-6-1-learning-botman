@@ -29,5 +29,3 @@ export const formatCurrency = (amount) => {
     return `${APP_CURRENCY} ${amount.toFixed(2)}`;
   }
 };
-
-
