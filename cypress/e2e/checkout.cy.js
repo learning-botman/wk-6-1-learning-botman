@@ -13,6 +13,9 @@ describe('E2E Checkout flow', () => {
 
     // On checkout page - fill shipping form (Step 1)
     cy.url().should('include', '/checkout');
+    // Accessibility check on checkout page load
+    cy.injectAxe();
+    cy.checkA11y();
     cy.get('#fullName').type('Automated Tester');
     cy.get('#email').type('tester@example.com');
     cy.get('#address').type('123 Test St');
@@ -23,11 +26,16 @@ describe('E2E Checkout flow', () => {
 
     // Review step (Step 2)
     cy.contains('Review your order');
+    // Run a11y check on review step
+    cy.a11yCheck();
     cy.contains('Proceed to Payment').click();
 
     // Payment step (Step 3) - initiate payment (Paystack simulated)
     cy.contains('Payment');
     cy.contains('Pay Now').click();
+
+    // Run a quick accessibility check after initiating payment (UI state)
+    cy.a11yCheck();
 
     // Verify that a Pending order was created in localStorage
     cy.window().then((win) => {
