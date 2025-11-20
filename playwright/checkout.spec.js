@@ -18,10 +18,17 @@ test('cart → checkout → create pending order in localStorage', async ({ page
   await page.fill('#city', 'Test City');
   await page.fill('#country', 'Testland');
   await page.fill('#postalCode', '00000');
-  await page.locator('form').first().evaluate(form => form.submit());
+  // Click the Next button to move from Shipping -> Review (form submit may behave differently in test env)
+  try {
+    await page.click('text=Next', { timeout: 10000 });
+  } catch (e) {
+    // fallback to submit form if Next button not found
+    await page.locator('form').first().evaluate((f) => f.submit());
+  }
 
-  // Proceed from review
-  await page.click('text=Proceed to Payment');
+  // Wait for review step to be visible, then proceed
+  await page.waitForSelector('text=Review your order', { timeout: 10000 });
+  await page.click('text=Proceed to Payment', { timeout: 10000 });
 
   // Click Pay Now
   await page.click('text=Pay Now');
