@@ -16,8 +16,11 @@
     "lhci:upload": "lhci upload",
     "lhci:autorun": "lhci autorun",
     "playwright:test": "npx playwright test",
-    "playwright:show-report": "npx playwright show-report playwright-report"
+    "playwright:show-report": "npx playwright show-report playwright-report",
+    "test:ci": "react-scripts test --coverage --watchAll=false",
+    "check:coverage": "node scripts/check-coverage.js"
   },
+  
   "playwright": {
     "reporter": [["list"], ["html", {"outputFolder": "playwright-report"}]]
   },
